@@ -1,0 +1,99 @@
+.header__header {
+    background-color: var(--white);
+}
+
+.header__header .navbar__menu--icon,.header__header .navbar__menu--icon::after, .header__header .navbar__menu--icon::before  {
+    background-color: #000000;
+}
+
+.header__header p,
+.header__header i , .header__header li a {
+    color: #000000;
+}
+/* === banner === */
+.banner__category {
+    background-color: #f5f5f5;
+    margin: 5% 0;
+}
+.category__heading, .heading {
+    margin: 0 auto;
+}
+.banner__nav {
+    display: flex;
+    align-items: center;
+}
+.banner__nav a,
+.banner__nav p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.25px;
+    color: var(--gray);
+    text-decoration: none;
+    text-transform: unset;
+}
+.banner__nav p {
+    color: var(--yellow);
+}
+.space {
+    width: 2px;
+    height: 12px;
+    margin: 0 10px;
+    background-color: var(--gray);
+    transform: rotate(25deg);
+}
+.category--heading--title,
+.heading__title{
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #000000;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    align-items: center;
+    padding: 5% 0 0;
+}
+.category__desc, .desc {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: center;
+}
+/* === content navbar === */
+
+.content__navbar {
+    border: 1px solid var(--gray);
+}
+.content__navbar > .container__sub {
+    padding: 0;
+}
+.content__navbar--list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content__navbar--list li {
+    list-style: none;
+    padding: 17.5px;
+    border-left: 1px solid var(--gray);
+}
+.content__navbar--list a {
+    /* display: block; */
+    text-decoration: none;
+    font-size: 14px;
+    color: #363636;
+}
+.content__navbar--list a:nth-child(1) span{
+    margin-right: 0;
+    margin-left: 5px;
+}
+.content__navbar--list span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    padding-right: 5px;
+}

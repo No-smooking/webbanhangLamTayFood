@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamtayfood</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- === header === -->
+    <header id="header">
+        <!-- container -->
+        <div class="container">
+            <!-- navbar-->
+            <div class="navbar">
+                <!-- menu -->
+                <div class="navbar__menu">
+                    <div class="navbar__menu--icons">
+                        <div class="navbar__menu--icon"></div>
+                    </div>
+                    <p>Menu</p>
+                </div>
+                <!-- logo -->
+                <div class="navbar__logo">
+                    <img src="./assets/images/logo__top.png" alt="logo">
+                </div>
+                <!-- nav icon-->
+                <ul class="navbar__nav">
+                    <li class="navbar__nav--account"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                    <li class="navbar__nav--cart"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li class="navbar__nav--language"><a href="#">VI</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </header>
+     <!-- === show item === -->
+     <div class="show__item show__item--account" id="navbar__login">
+        <!-- title -->
+        <div class="show__title">
+            <p>Tài khoản</p>
+            <span class="hide__item hide__item--account"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+        <!-- text -->
+        <div class="show__text">
+            <p>Tạo tài khoản hoặc đăng nhập để xem đơn đặt hàng hoặc điều chỉnh thông tin cá nhân của bạn.</p>
+        </div>
+        <hr>
+        <!-- button -->
+        <div class="show__button">
+            <a href="#"><i class="fa-solid fa-angle-left"></i><span>Tạo tài khoản</span></a>
+            <a href="/components/Account/Login.html"><button>Đăng nhập</button></a>
+        </div>
+    </div>
+    <!-- === banner === -->
+    <section class="banner">
+        <!-- img -->
+        <div class="banner__img">
+            <img src="./assets/images/banner__trang chủ.png" alt="">
+        </div>
+        <!-- heading -->
+        <div class="banner__heading">
+            <!-- title -->
+            <h2>Chúng tôi luôn cung cấp những sản phẩm tốt nhất.</h2>
+            <!-- button -->
+            <a href="#"><button>Khám phá</button></a>
+        </div>
+        <!-- links socail -->
+        <ul class="banner__links--socail">
+            <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+        <!-- links radio -->
+        <div class="banner__links--radio">
+            <input type="radio" name="banner__img" id="banner__link--1">
+            <input type="radio" name="banner__img" id="banner__link--2">
+            <input type="radio" name="banner__img" id="banner__link--3">
+            <input type="radio" name="banner__img" id="banner__link--4">
+        </div>
+    </section>
+
+    <!-- === menu__main === -->
+    <section id="menu__main">
+        <!-- === header === -->
+        <div class="menu__main--header">
+            <!-- container -->
+            <div class="container">
+                <!-- navbar-->
+                <div class="navbar">
+                    <!-- menu -->
+                    <div class="navbar__menu">
+                        <div class="navbar__menu--icons navbar__close--icons">
+                            <div class="navbar__close--icon"><i class="fa-solid fa-xmark"></i></div>
+                        </div>
+                        <p>Đóng</p>
+                    </div>
+                    <!-- navbar icon-->
+                    <ul class="navbar__nav">
+                        <li class="navbar__nav--account-show"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                        <li class="navbar__nav--cart"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- banner -->
+        <div class="menu__main--banner">
+            <div class="menu__main--banner-wrap">
+                <!-- banner-left -->
+                <div class="menu__main--banner-left">
+                    <!-- links navbar -->
+                    <ul class="menu__main--links">
+                        <li class="link__home"><a href="#">Trang chủ</a></li>
+                        <li><a href="#info">Giới thiệu</a></li>
+                        <li><a href="#product">Sản phẩm</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                    </ul>
+                    <!-- search -->
+                    <div class="menu__main--search">
+                        <input type="text" name="search" id="search" placeholder="Từ khóa">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="menu__main--banner-right">
+                    <!-- title -->
+                    <h3>Liên hệ</h3>
+                    <!-- text -->
+                    <div class="menu__main--banner-right-text">
+                        <p>
+                            Tầng 7, toà nhà Citilight, 45 Võ Thị Sáu,
+                            Phường Đa Kao, Quận 1, TPHCM
+                        </p>
+                        <a href="tel:0123456789">T:(888) 832-0051</a>
+                        <a href="mailto:tuan080895@gmail.com">E:info@gmail.com</a>
+                    </div>
+                    <!-- memu__main-socail -->
+                    <ul class="menu__main--socail">
+                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                    <!-- language -->
+                    <div class="menu__main--language">
+                        <h3>ngôn ngữ</h3>
+                        <ul class="links__language">
+                            <li><a href="#">VI</a></li>
+                            <li><a href="#">EN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- heading -->
+            <div class="menu__main--heading">
+                <h2>menu</h2>
+            </div>
+            <!-- banner__bottom -->
+            <div class="menu__main--banner-bottom"> 
+                <img src="./assets/images/img__menu--bottom.png" alt="">
+            </div>
+        </div>  
+    </section>
+    <!-- === info === -->
+    <section id="info">
+        <!-- container -->
+        <div class="container">
+            <!-- info img -->
+            <div class="info__images">
+                <img src="./assets/images/img__info-1.png" alt="">
+                <img src="./assets/images/img__info-3.png" alt="">
+                <img src="./assets/images/img__info-2.png" alt="">
+            </div>
+            <!-- info text -->
+            <div class="text info__text">
+                <!-- tag -->
+                <p class="tag">Giới thiệu</p>
+                <!-- title -->
+                <h3 class="title info__text--title">
+                    Hãy tìm hiểu thêm
+                    nhiều đề về chúng tôi.
+                </h3>
+                <!-- desc -->
+                <p class="desc info__text--desc">
+                    Chúng tôi đã khai thác nhiều thập kỷ kinh nghiệm và chuyên môn của mình trong lĩnh vực bán buôn tinh dầu thiên nhiên để mang đến cho bạn, khách hàng, dịch vụ và sản phẩm tốt nhất có thể. Chúng tôi sản xuất và đóng gói một loạt các thành phần dầu tự nhiên, sáng tạo - luôn tăng thêm giá trị.
+                </p>
+                <a class="show__all" id="info__all" href="#">Tìm hiểu thêm <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <!-- banner info -->
+            <div class="info__banner">
+                <img src="./assets/images/img__info.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- === product === -->
+    <section id="product">
+        <!-- container -->
+        <div class="container wrap__container">
+            <!-- product__banner -->
+            <div class="product__banner">
+                <img src="/assets/images/text__lamtayfood.png" alt="">
+            </div>
+            <!-- product text -->
+            <div class="text product__text">
+                <!-- tag -->
+                <p class="tag">SẢN PHẨM</p>
+                <!-- title -->
+                <h3 class="title product__text--title">
+                    Hãy tìm hiểu thêm
+                    nhiều đề về chúng tôi.
+                </h3>
+                <!-- desc -->
+                <p class="desc product__text--desc">
+                    Chúng tôi đã khai thác nhiều thập kỷ kinh nghiệm và chuyên môn của mình trong lĩnh vực bán buôn tinh dầu thiên nhiên để mang đến cho bạn, khách hàng, dịch vụ và sản phẩm tốt nhất có thể. Chúng tôi sản xuất và đóng gói một loạt các thành phần dầu tự nhiên, sáng tạo - luôn tăng thêm giá trị.
+                </p>
+                <a class="show__all" id ='product__all' href="#">Khám phá thêm<i class="fa-solid fa-arrow-right"></i></a>
+            </div> 
+            <!-- product slide -->
+            <div class="product__slide">
+                <!-- arrow icon -->
+                <button id="arrow__left"><i class="fa-solid fa-arrow-left"></i></button>
+                <button id="arrow__right"><i class="fa-solid fa-arrow-right"></i></button>
+                <ul class="product__list">
+                    <li>
+                        <!-- img product -->
+                        <img src="./assets/images/img__product-1.png" alt="">
+                        <!-- sale -->
+                        <p class="product__sale">sale</p>
+                        <div class="product__information">
+                            <p class="product__name">Dầu hạt nho Casa</p>
+                            <p class="product__price">183.000</p>
+                        </div>
+                        <!-- button -->
+                        <button class="add--to--cart"><i class="fa-solid fa-plus"></i></button>
+                    </li>
+                    <li>
+                        <!-- img product -->
+                        <img src="./assets/images/img__product-2.png" alt="">
+                        <!-- sale -->
+                        <!-- <p class="product__sale">sale</p> -->
+                        <div class="product__information">
+                            <p class="product__name">Dầu hạt nho Casa</p>
+                            <p class="product__price">183.000</p>
+                        </div>
+                        <!-- button -->
+                        <button class="add--to--cart" ><i class="fa-solid fa-plus"></i></button>
+                    </li>
+                    <li>
+                        <!-- img product -->
+                        <img src="./assets/images/img__product-3.png" alt="">
+                        <!-- sale -->
+                        <!-- <p class="product__sale">sale</p> -->
+                        <div class="product__information">
+                            <p class="product__name">Dầu hạt nho Casa</p>
+                            <p class="product__price">183.000</p>
+                        </div>
+                        <!-- button -->
+                        <button class="add--to--cart"><i class="fa-solid fa-plus"></i></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- === category === -->
+    <section id="category">
+        <!-- container -->
+        <div class="container wrap__container">
+            <!-- category text -->
+            <div class="text category__text">
+                <!-- wrap text -->
+                <div class="wrap__text">
+                    <!-- tag -->
+                    <p class="tag">Danh Muc</p>
+                    <!-- title -->
+                    <h3 class="title product__text--title">
+                        Hãy tìm hiểu thêm
+                        nhiều vấn đề về chúng tôi.
+                    </h3>
+                </div>
+                <!-- desc -->
+                <a class="show__all" id ='category__all' href="#">Xem tất cả</a>
+            </div> 
+            <!-- category list -->
+            <ul class="category__list">
+                <li class="category__list--item" >
+                    <!-- img category -->
+                    <img src="./assets/images/img--oliu.png" alt="">
+                    <!-- name -->
+                    <h4 class="name">Trai Ô Liu</h4>
+                    <!-- button -->
+                    <button class="show__all--radius-circle"><i class="fa-solid fa-arrow-right"></i></button>
+                </li>
+                <li class="category__list--item">
+                    <!-- img category -->
+                    <img src="./assets/images/img--suachua.png" alt="">
+                    <!-- name -->
+                    <h4 class="name">Sữa chua</h4>
+                    <!-- button -->
+                    <button class="show__all--radius-circle"><i class="fa-solid fa-arrow-right"></i></button>
+                </li>
+                <li class="category__list--item">
+                    <!-- img category -->
+                    <img src="./assets/images/img--raucu.png" alt="">
+                    <!-- name -->
+                    <h4 class="name">Rau củ</h4>
+                    <!-- button -->
+                    <button class="show__all--radius-circle"><i class="fa-solid fa-arrow-right"></i></button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- === contact === -->
+    <section id="contact">
+        <!-- container -->
+        <div class="container">
+            <!-- img -->
+            <div class="contact__img">
+                <img src="./assets/images/img__contact--L.png" alt="">
+                <img src="./assets/images/img__contact--r.png" alt="">
+            </div>
+            <!-- text -->
+            <div class="text contact__text">
+                <!-- title -->
+                <h3 class="title contact__text--title">
+                    Bạn đang quan tâm <br>
+                    đến sản phẩm của chúng tôi?
+                </h3>
+                <!-- desc -->
+                <p class="desc contact__text--desc">
+                    Hãy để lại Email của bạn. Chúng tôi sẽ liên hệ với bạn <br> sớm nhất để thông báo về những ưu đãi.
+                </p>
+                <!-- input -->
+                <input id="contact__email" type="email" placeholder="Email">
+                <!-- button -->
+                <button id="contact__button">Gửi</button>
+            </div>
+        </div>
+    </section>
+    <!-- === footer === -->
+    <footer id="footer">
+        <!-- container -->
+        <div class="container wrap__container">
+            <!-- logo -->
+           
+            <div class="footer__logo">
+                <!-- img -->
+                <img src="./assets/images/logo--footer.png" alt="">
+                <!-- socail -->
+                <ul class="footer__socail">
+                    <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+                <!-- text -->
+                <p class="footer__text">© lamtayfoof. ALL RIGHTS RESERVED.</p>
+            </div>
+            <!-- list -->
+            <div class="footer__links">
+                <!-- title -->
+                <p class="footer__title">Danh mục</p>
+                <!-- link -->
+                <ul class="footer__link">
+                    <li><a href="#">Bia rượu</a></li>
+                    <li><a href="#">Bơ đậu phộng</a></li>
+                    <li><a href="#">cá hộp</a></li>
+                    <li><a href="#">hải sản</a></li>
+                    <li><a href="#">Nước khoáng</a></li>
+                    <li><a href="#">thịt pate</a></li>
+                    <li><a href="#">trái ô liu</a></li>
+                    <li><a href="#">thịt bò</a></li>
+                </ul>
+                <!-- show all -->
+                <div class="footer__show--all">
+                    <span>Xem tất cả</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <!-- support -->
+            <div class="footer__links">
+                <!-- title -->
+                <p class="footer__title">thông tin hỗ trợ</p>
+                <!-- link -->
+                <ul class="footer__link">
+                    <li><a href="#">Bia rượu</a></li>
+                    <li><a href="#">Bơ đậu phộng</a></li>
+                    <li><a href="#">cá hộp</a></li>
+                    <li><a href="#">hải sản</a></li>
+                    <li><a href="#">Nước khoáng</a></li>
+                    <li><a href="#">thịt pate</a></li>
+                    <li><a href="#">trái ô liu</a></li>
+                    <li><a href="#">thịt bò</a></li>
+                </ul>
+            </div>
+            <!-- footer contact -->
+            <div class="footer__links">
+                <!-- title -->
+                <p class="footer__title">Liên hệ</p>
+                <!-- link -->
+                <ul class="footer__link">
+                    <li>
+                        <a href="#">
+                            Tầng 7, toà nhà Citilight, 45 Võ Thị Sáu,
+                            Phường Đa Kao, Quận 1, TPHCM
+                        </a>
+                    </li>
+                    <li><a href="tel:(888) 832-0051">T: (888) 832-0051</a></li>
+                    <li><a href="mailto:info@gmail.com">E: info@gmail.com</a></li>
+                </ul>
+            </div>
+            <!-- footer logo top -->
+            <div class="footer__logo--top">
+                <img src="./assets/images/logo--footer.png" alt="">
+            </div>
+        </div>
+        
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/1d3e3edcff.js" crossorigin="anonymous"></script>
+    <!-- main.js -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
